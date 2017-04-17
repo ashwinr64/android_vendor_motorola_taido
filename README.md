@@ -1,1 +1,0 @@
-# android_vendor_smart_surf2_4g
