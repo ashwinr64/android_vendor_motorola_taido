@@ -58,10 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/taido/proprietary/bin/thermal:system/bin/thermal \
     vendor/motorola/taido/proprietary/bin/thermal_manager:system/bin/thermal_manager \
     vendor/motorola/taido/proprietary/bin/thermald:system/bin/thermald \
-    vendor/motorola/taido/proprietary/bin/volte_imcb:system/bin/volte_imcb \
-    vendor/motorola/taido/proprietary/bin/volte_stack:system/bin/volte_stack \
-    vendor/motorola/taido/proprietary/bin/volte_ua:system/bin/volte_ua \
-    vendor/motorola/taido/proprietary/bin/vtservice:system/bin/vtservice \
     vendor/motorola/taido/proprietary/bin/wifi2agps:system/bin/wifi2agps \
     vendor/motorola/taido/proprietary/bin/wmt_loader:system/bin/wmt_loader \
     vendor/motorola/taido/proprietary/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
@@ -89,9 +85,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/taido/proprietary/etc/firmware/mt6627/mt6627_fm_v5_coeff.bin:system/etc/firmware/mt6627/mt6627_fm_v5_coeff.bin \
     vendor/motorola/taido/proprietary/etc/firmware/mt6627/mt6627_fm_v5_patch.bin:system/etc/firmware/mt6627/mt6627_fm_v5_patch.bin \
     vendor/motorola/taido/proprietary/etc/fmr/mt6627_fm_cust.cfg:system/etc/fmr/mt6627_fm_cust.cfg \
-    vendor/motorola/taido/proprietary/etc/mddb/DbgInfo_LR9.W1444.MD.LWTG.MP_TAIDO_ROW_TAIDO_ROW_V24_2017_03_29_11_11_1_lwg_n:system/etc/mddb/DbgInfo_LR9.W1444.MD.LWTG.MP_TAIDO_ROW_TAIDO_ROW_V24_2017_03_29_11_11_1_lwg_n \
     vendor/motorola/taido/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
     vendor/motorola/taido/proprietary/etc/perfservscntbl.txt:system/etc/perfservscntbl.txt \
+    vendor/motorola/taido/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/motorola/taido/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/motorola/taido/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/motorola/taido/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
@@ -105,13 +101,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/taido/proprietary/lib/hw/memtrack.mt6735.so:system/lib/hw/memtrack.mt6735.so \
     vendor/motorola/taido/proprietary/lib/hw/radio.fm.mt6735.so:system/lib/hw/radio.fm.mt6735.so \
     vendor/motorola/taido/proprietary/lib/hw/sensors.mt6735.so:system/lib/hw/sensors.mt6735.so \
-    vendor/motorola/taido/proprietary/lib/lib3DJPG.so:system/lib/lib3DJPG.so \
     vendor/motorola/taido/proprietary/lib/lib3a.so:system/lib/lib3a.so \
     vendor/motorola/taido/proprietary/lib/libBnMtkCodec.so:system/lib/libBnMtkCodec.so \
     vendor/motorola/taido/proprietary/lib/libHEVCdec_sa.ca7.android.so:system/lib/libHEVCdec_sa.ca7.android.so \
     vendor/motorola/taido/proprietary/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
     vendor/motorola/taido/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
-    vendor/motorola/taido/proprietary/lib/libLeCSC.so:system/lib/libLeCSC.so \
     vendor/motorola/taido/proprietary/lib/libMtkOmxAdpcmDec.so:system/lib/libMtkOmxAdpcmDec.so \
     vendor/motorola/taido/proprietary/lib/libMtkOmxAdpcmEnc.so:system/lib/libMtkOmxAdpcmEnc.so \
     vendor/motorola/taido/proprietary/lib/libMtkOmxAlacDec.so:system/lib/libMtkOmxAlacDec.so \
@@ -129,8 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/taido/proprietary/lib/liba3m.so:system/lib/liba3m.so \
     vendor/motorola/taido/proprietary/lib/libacdk.so:system/lib/libacdk.so \
     vendor/motorola/taido/proprietary/lib/libaed.so:system/lib/libaed.so \
-    vendor/motorola/taido/proprietary/lib/libamr_wrap.so:system/lib/libamr_wrap.so \
-    vendor/motorola/taido/proprietary/lib/libamrvt.so:system/lib/libamrvt.so \
     vendor/motorola/taido/proprietary/lib/libaudio-resampler.so:system/lib/libaudio-resampler.so \
     vendor/motorola/taido/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
     vendor/motorola/taido/proprietary/lib/libaudiocomponentengine.so:system/lib/libaudiocomponentengine.so \
@@ -138,7 +130,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/taido/proprietary/lib/libaudiodcrflt.so:system/lib/libaudiodcrflt.so \
     vendor/motorola/taido/proprietary/lib/libaudiomtkdcremoval.so:system/lib/libaudiomtkdcremoval.so \
     vendor/motorola/taido/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
-    vendor/motorola/taido/proprietary/lib/libawb_wrap.so:system/lib/libawb_wrap.so \
     vendor/motorola/taido/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
     vendor/motorola/taido/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
     vendor/motorola/taido/proprietary/lib/libblisrc32.so:system/lib/libblisrc32.so \
@@ -182,7 +173,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/taido/proprietary/lib/libcamdrv_FrmB.so:system/lib/libcamdrv_FrmB.so \
     vendor/motorola/taido/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
     vendor/motorola/taido/proprietary/lib/libccci_util.so:system/lib/libccci_util.so \
-    vendor/motorola/taido/proprietary/lib/libcomutils.so:system/lib/libcomutils.so \
     vendor/motorola/taido/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
     vendor/motorola/taido/proprietary/lib/libcustom_prop.so:system/lib/libcustom_prop.so \
     vendor/motorola/taido/proprietary/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
@@ -206,20 +196,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/taido/proprietary/lib/libimageio_FrmB.so:system/lib/libimageio_FrmB.so \
     vendor/motorola/taido/proprietary/lib/libimageio_plat_drv.so:system/lib/libimageio_plat_drv.so \
     vendor/motorola/taido/proprietary/lib/libimageio_plat_drv_FrmB.so:system/lib/libimageio_plat_drv_FrmB.so \
-    vendor/motorola/taido/proprietary/lib/libimg_utils.so:system/lib/libimg_utils.so \
-    vendor/motorola/taido/proprietary/lib/libimsma.so:system/lib/libimsma.so \
-    vendor/motorola/taido/proprietary/lib/libimsma_rtp.so:system/lib/libimsma_rtp.so \
-    vendor/motorola/taido/proprietary/lib/libimsma_socketwrapper.so:system/lib/libimsma_socketwrapper.so \
     vendor/motorola/taido/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
     vendor/motorola/taido/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/motorola/taido/proprietary/lib/libmal.so:system/lib/libmal.so \
-    vendor/motorola/taido/proprietary/lib/libmal_datamngr.so:system/lib/libmal_datamngr.so \
-    vendor/motorola/taido/proprietary/lib/libmal_epdga.so:system/lib/libmal_epdga.so \
-    vendor/motorola/taido/proprietary/lib/libmal_imsmngr.so:system/lib/libmal_imsmngr.so \
-    vendor/motorola/taido/proprietary/lib/libmal_nwmngr.so:system/lib/libmal_nwmngr.so \
-    vendor/motorola/taido/proprietary/lib/libmal_rds.so:system/lib/libmal_rds.so \
-    vendor/motorola/taido/proprietary/lib/libmal_rilproxy.so:system/lib/libmal_rilproxy.so \
-    vendor/motorola/taido/proprietary/lib/libmal_simmngr.so:system/lib/libmal_simmngr.so \
     vendor/motorola/taido/proprietary/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
     vendor/motorola/taido/proprietary/lib/libmdfx.so:system/lib/libmdfx.so \
     vendor/motorola/taido/proprietary/lib/libmmprofile.so:system/lib/libmmprofile.so \
@@ -232,10 +211,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/taido/proprietary/lib/libmtcloader.so:system/lib/libmtcloader.so \
     vendor/motorola/taido/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
     vendor/motorola/taido/proprietary/lib/libmtk_mmutils.so:system/lib/libmtk_mmutils.so \
-    vendor/motorola/taido/proprietary/lib/libmtk_vt_service.so:system/lib/libmtk_vt_service.so \
-    vendor/motorola/taido/proprietary/lib/libmtk_vt_swip.so:system/lib/libmtk_vt_swip.so \
-    vendor/motorola/taido/proprietary/lib/libmtk_vt_utils.so:system/lib/libmtk_vt_utils.so \
-    vendor/motorola/taido/proprietary/lib/libmtk_vt_wrapper.so:system/lib/libmtk_vt_wrapper.so \
     vendor/motorola/taido/proprietary/lib/libmtkcamera_client.so:system/lib/libmtkcamera_client.so \
     vendor/motorola/taido/proprietary/lib/libmtkjpeg.so:system/lib/libmtkjpeg.so \
     vendor/motorola/taido/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
@@ -245,7 +220,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/taido/proprietary/lib/libnvram_platform.so:system/lib/libnvram_platform.so \
     vendor/motorola/taido/proprietary/lib/libnvram_sec.so:system/lib/libnvram_sec.so \
     vendor/motorola/taido/proprietary/lib/libnvramagentclient.so:system/lib/libnvramagentclient.so \
-    vendor/motorola/taido/proprietary/lib/libopencv_java.so:system/lib/libopencv_java.so \
     vendor/motorola/taido/proprietary/lib/libperfservice.so:system/lib/libperfservice.so \
     vendor/motorola/taido/proprietary/lib/libperfservicenative.so:system/lib/libperfservicenative.so \
     vendor/motorola/taido/proprietary/lib/libpq_cust.so:system/lib/libpq_cust.so \
@@ -264,18 +238,18 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/taido/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
     vendor/motorola/taido/proprietary/lib/libvp8enc_sa.ca7.so:system/lib/libvp8enc_sa.ca7.so \
     vendor/motorola/taido/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
-    vendor/motorola/taido/proprietary/lib/libvt_avsync.so:system/lib/libvt_avsync.so \
-    vendor/motorola/taido/proprietary/lib/libvt_custom.so:system/lib/libvt_custom.so \
-    vendor/motorola/taido/proprietary/lib/libvt_socketbind.so:system/lib/libvt_socketbind.so \
-    vendor/motorola/taido/proprietary/lib/libwfo_jni.so:system/lib/libwfo_jni.so \
     vendor/motorola/taido/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
     vendor/motorola/taido/proprietary/lib/mtk-rilmd2.so:system/lib/mtk-rilmd2.so \
-    vendor/motorola/taido/proprietary/lib/volte_imsm.so:system/lib/volte_imsm.so \
     vendor/motorola/taido/proprietary/usr/keylayout/ACCDET.kl:system/usr/keylayout/ACCDET.kl \
     vendor/motorola/taido/proprietary/usr/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl \
+    vendor/motorola/taido/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/motorola/taido/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/motorola/taido/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/motorola/taido/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/motorola/taido/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/motorola/taido/proprietary/xbin/BGW:system/xbin/BGW \
     vendor/motorola/taido/proprietary/xbin/mnld:system/xbin/mnld
 
 PRODUCT_PACKAGES += \
-    YGPS
+    YGPS \
+    com.google.widevine.software.drm
