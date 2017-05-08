@@ -188,7 +188,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/taido/proprietary/lib/libmtcloader.so:system/lib/libmtcloader.so \
     vendor/motorola/taido/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
     vendor/motorola/taido/proprietary/lib/libmtk_mmutils.so:system/lib/libmtk_mmutils.so \
-    vendor/motorola/taido/proprietary/lib/libmtkcamera_client.so:system/lib/libmtkcamera_client.so \
     vendor/motorola/taido/proprietary/lib/libmtkjpeg.so:system/lib/libmtkjpeg.so \
     vendor/motorola/taido/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
     vendor/motorola/taido/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
@@ -229,4 +228,5 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     YGPS \
-    com.google.widevine.software.drm
+    com.google.widevine.software.drm \
+    libmtkcamera_client

@@ -19,6 +19,16 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),taido)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libmtkcamera_client
+LOCAL_MODULE_OWNER := motorola
+LOCAL_SRC_FILES := proprietary/lib/libmtkcamera_client.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := YGPS
 LOCAL_MODULE_OWNER := motorola
 LOCAL_SRC_FILES := proprietary/app/YGPS/YGPS.apk
