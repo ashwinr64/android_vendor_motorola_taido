@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/taido/proprietary/bin/bmm050d:system/bin/bmm050d \
     vendor/motorola/taido/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
     vendor/motorola/taido/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
-    vendor/motorola/taido/proprietary/bin/dm_agent_binder:system/bin/dm_agent_binder \
     vendor/motorola/taido/proprietary/bin/fsck_msdos_mtk:system/bin/fsck_msdos_mtk \
     vendor/motorola/taido/proprietary/bin/geomagneticd:system/bin/geomagneticd \
     vendor/motorola/taido/proprietary/bin/gsm0710muxd:system/bin/gsm0710muxd \
@@ -58,10 +57,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/taido/proprietary/bin/thermald:system/bin/thermald \
     vendor/motorola/taido/proprietary/bin/wifi2agps:system/bin/wifi2agps \
     vendor/motorola/taido/proprietary/bin/wmt_loader:system/bin/wmt_loader \
-    vendor/motorola/taido/proprietary/etc/audio_param/AudioParamOptions.xml:system/etc/audio_param/AudioParamOptions.xml \
     vendor/motorola/taido/proprietary/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin \
     vendor/motorola/taido/proprietary/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin \
-    vendor/motorola/taido/proprietary/etc/firmware/S_ANDRO_SFL.ini:system/etc/firmware/S_ANDRO_SFL.ini \
     vendor/motorola/taido/proprietary/etc/firmware/WIFI_RAM_CODE_6735:system/etc/firmware/WIFI_RAM_CODE_6735 \
     vendor/motorola/taido/proprietary/etc/firmware/catcher_filter_1_lwg_n.bin:system/etc/firmware/catcher_filter_1_lwg_n.bin \
     vendor/motorola/taido/proprietary/etc/firmware/dsp_1_lwg_n.bin:system/etc/firmware/dsp_1_lwg_n.bin \
@@ -78,7 +75,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/taido/proprietary/etc/firmware/mt6627/mt6627_fm_v5_patch.bin:system/etc/firmware/mt6627/mt6627_fm_v5_patch.bin \
     vendor/motorola/taido/proprietary/etc/fmr/mt6627_fm_cust.cfg:system/etc/fmr/mt6627_fm_cust.cfg \
     vendor/motorola/taido/proprietary/etc/perfservscntbl.txt:system/etc/perfservscntbl.txt \
-    vendor/motorola/taido/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/motorola/taido/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
     vendor/motorola/taido/proprietary/lib/hw/audio.primary.mt6735.so:system/lib/hw/audio.primary.mt6735.so \
     vendor/motorola/taido/proprietary/lib/hw/camera.mt6735.so:system/lib/hw/camera.mt6735.so \
@@ -188,6 +184,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/taido/proprietary/lib/libmtcloader.so:system/lib/libmtcloader.so \
     vendor/motorola/taido/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
     vendor/motorola/taido/proprietary/lib/libmtk_mmutils.so:system/lib/libmtk_mmutils.so \
+    vendor/motorola/taido/proprietary/lib/libmtkcamera_client.so:system/lib/libmtkcamera_client.so \
     vendor/motorola/taido/proprietary/lib/libmtkjpeg.so:system/lib/libmtkjpeg.so \
     vendor/motorola/taido/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
     vendor/motorola/taido/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
@@ -227,6 +224,4 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/taido/proprietary/xbin/mnld:system/xbin/mnld
 
 PRODUCT_PACKAGES += \
-    YGPS \
-    com.google.widevine.software.drm \
-    libmtkcamera_client
+    YGPS
