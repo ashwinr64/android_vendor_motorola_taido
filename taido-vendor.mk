@@ -78,7 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/taido/proprietary/etc/firmware/mt6627/mt6627_fm_v5_patch.bin:system/etc/firmware/mt6627/mt6627_fm_v5_patch.bin \
     vendor/motorola/taido/proprietary/etc/fmr/mt6627_fm_cust.cfg:system/etc/fmr/mt6627_fm_cust.cfg \
     vendor/motorola/taido/proprietary/etc/perfservscntbl.txt:system/etc/perfservscntbl.txt \
-    vendor/motorola/taido/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/motorola/taido/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
     vendor/motorola/taido/proprietary/lib/hw/audio.primary.mt6735.so:system/lib/hw/audio.primary.mt6735.so \
     vendor/motorola/taido/proprietary/lib/hw/camera.mt6735.so:system/lib/hw/camera.mt6735.so \
@@ -218,14 +217,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/taido/proprietary/lib/libxlog.so:system/lib/libxlog.so \
     vendor/motorola/taido/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
     vendor/motorola/taido/proprietary/lib/mtk-rilmd2.so:system/lib/mtk-rilmd2.so \
-    vendor/motorola/taido/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/motorola/taido/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/motorola/taido/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/motorola/taido/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/motorola/taido/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/motorola/taido/proprietary/xbin/BGW:system/xbin/BGW \
     vendor/motorola/taido/proprietary/xbin/mnld:system/xbin/mnld
 
 PRODUCT_PACKAGES += \
-    libdpframework \
-    com.google.widevine.software.drm
+    libdpframework
