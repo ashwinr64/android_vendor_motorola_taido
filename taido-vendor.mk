@@ -165,7 +165,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/taido/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
     vendor/motorola/taido/proprietary/lib/libcustom_prop.so:system/lib/libcustom_prop.so \
     vendor/motorola/taido/proprietary/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
-    vendor/motorola/taido/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
     vendor/motorola/taido/proprietary/lib/libdrmmtkutil.so:system/lib/libdrmmtkutil.so \
     vendor/motorola/taido/proprietary/lib/libdrmmtkwhitelist.so:system/lib/libdrmmtkwhitelist.so \
     vendor/motorola/taido/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
@@ -265,4 +264,5 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/taido/proprietary/xbin/mnld:system/xbin/mnld
 
 PRODUCT_PACKAGES += \
-    com.google.widevine.software.drm
+    com.google.widevine.software.drm \
+    libdpframework
