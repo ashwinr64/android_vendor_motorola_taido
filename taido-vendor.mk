@@ -265,5 +265,4 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/taido/proprietary/xbin/mnld:system/xbin/mnld
 
 PRODUCT_PACKAGES += \
-    YGPS \
     com.google.widevine.software.drm

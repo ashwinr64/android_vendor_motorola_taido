@@ -19,17 +19,6 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),taido)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := YGPS
-LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/app/YGPS/YGPS.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := com.google.widevine.software.drm
 LOCAL_MODULE_OWNER := motorola
 LOCAL_SRC_FILES := proprietary/framework/com.google.widevine.software.drm.jar
