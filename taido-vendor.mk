@@ -214,7 +214,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/taido/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
     vendor/motorola/taido/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
     vendor/motorola/taido/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
-    vendor/motorola/taido/proprietary/lib/libxlog.so:system/lib/libxlog.so \
     vendor/motorola/taido/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
     vendor/motorola/taido/proprietary/lib/mtk-rilmd2.so:system/lib/mtk-rilmd2.so \
     vendor/motorola/taido/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
